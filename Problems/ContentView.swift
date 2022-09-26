@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                NavigationLink("Button Problems", destination: ButtonProblemView())
+                NavigationLink("Border Problems", destination: BorderProblemView())
+            }
+        }
     }
 }
 
