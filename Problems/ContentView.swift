@@ -13,6 +13,7 @@ struct ContentView: View {
             List {
                 NavigationLink("Button Problems", destination: ButtonProblemView())
                 NavigationLink("Border Problems", destination: BorderProblemView())
+                NavigationLink("Async/Await Problems", destination: AsyncAwaitProblemView())
             }
         }
     }
